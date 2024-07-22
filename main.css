@@ -1,0 +1,173 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: hsl(223, 27%, 31%);
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+}
+footer{
+    background-color: #3A4664;
+    color: white;
+    padding: 10px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1, p, li, span{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    margin-left: 20px;
+    font-weight: bold;
+    color: #6C6C6C;
+    border-color: #6C6C6C;
+}
+input{
+    margin-left: 20px;
+    width: 20rem;
+}
+header, #pinkheader{
+    padding: 5px;
+    width: 100%;
+}
+#textcontainer{
+    padding: 10px;
+    margin-left: 50px;
+}
+#photocontainer{
+    padding: 10px;
+    display: inline-block;
+}
+#photocontainer img{
+    height: 400px;
+    width: auto;
+}
+#pinkheader{
+    background-color: #EAA0A2;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#featurecontainer{
+    background-color: #f3f3f3;
+    padding: 50px;
+    display: inline-flex;
+}
+#search{
+    padding: 10px;
+}
+#cart, #buy{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#cart{
+    background-color: #FFDBDC;
+}
+#buy{
+    background-color: white;
+}
+#monthbooks{
+    display: inline-block;
+}
+#monthbooks img{
+    height: 200px;
+    width: auto;
+    margin: 10px;
+}
+#books{
+    display: inline-block;
+}
+#books img{
+    height: 250px;
+    width: auto;
+    margin: 30px;
+}
+#profile{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+#description{
+    color: #6C6C6C;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tag{
+    width: 10px;
+    height: 50px;
+    background-color: #EAA0A2;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.headings{
+    font-weight: bold;
+    font-size: 30px;
+    color: #6C6C6C;
+    vertical-align: middle;
+}
+.bookcontainer{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.monthadvertisement{
+    background-color: #F3F3F3;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    left: 500px;
+}
+.monthcontainer{
+    display: inline-block;
+    align-items: end;
+    margin-left: 200px;
+}
+.icons{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.authorname{
+    font-weight: bold;
+    color: #6C6C6C;
+    font-size: 12px;
+}
+.ratings{
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    display: inline-block;
+}
+.aboutus{
+    font-size: 20px;
+    font-weight: bold;
+}
+
